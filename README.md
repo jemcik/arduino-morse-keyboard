@@ -15,4 +15,10 @@ This can be useful as a trainer for those, who want to learn morse code, or you 
 copy `morse_iambic_keyboard` to your Arduino sketchbook folder, open it in Arduino IDE, then upload it to your board.
 
 ### Wiring:
-<img width="370" alt="Screenshot 2024-06-01 at 18 24 26" src="https://github.com/jemcik/arduino-morse-keyboard/assets/4085099/45395f8c-7f01-4ade-8606-d3d7793394d1">
+<img width="370" alt="wiring" src="https://github.com/jemcik/arduino-morse-keyboard/assets/4085099/45395f8c-7f01-4ade-8606-d3d7793394d1">
+
+### Actual implemenation:
+<img width="370" alt="implemenation" src="https://github.com/jemcik/arduino-morse-keyboard/assets/4085099/a3df8dd8-782d-4f6f-8844-486ec534b3ef">
+
+### Demo video:
+https://github.com/jemcik/arduino-morse-keyboard/assets/4085099/55b28642-c19c-46ba-b66c-811083f00032

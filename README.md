@@ -1,4 +1,4 @@
-## The Keyboard
+## The Morse Keyboard
 The idea is quite simple: connect 2 buttons (or double paddle [telegraph key](https://en.wikipedia.org/wiki/Telegraph_key)) to the Arduino board, 
 connect Arduino board to your computer and use it as a keyboard.
 If dots and dashes sequence is recognized, it will be decoded to an ASCII char and sent to the computer,
@@ -14,4 +14,5 @@ This can be useful as a trainer for those, who want to learn morse code, or you 
 ### How to run:
 copy `morse_iambic_keyboard` to your Arduino sketchbook folder, open it in Arduino IDE, then upload it to your board.
 
-### Wiring
+### Wiring:
+<img width="370" alt="Screenshot 2024-06-01 at 18 24 26" src="https://github.com/jemcik/arduino-morse-keyboard/assets/4085099/45395f8c-7f01-4ade-8606-d3d7793394d1">

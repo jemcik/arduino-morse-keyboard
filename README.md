@@ -20,5 +20,5 @@ copy `morse_iambic_keyboard` to your Arduino sketchbook folder, open it in Ardui
 ### Actual implementation:
 <img width="370" alt="implementation" src="https://github.com/jemcik/arduino-morse-keyboard/assets/4085099/a3df8dd8-782d-4f6f-8844-486ec534b3ef">
 
-### Demo video:
+### Demo video (is has sound, which is muted by default):
 https://github.com/jemcik/arduino-morse-keyboard/assets/4085099/55b28642-c19c-46ba-b66c-811083f00032

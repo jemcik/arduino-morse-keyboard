@@ -59,7 +59,7 @@ void loop() {
   if (dotState != currentDotState) {  // check if DOT button state has changed (pressed or released)
     dotState = currentDotState;
     if (!dotState && currentSymbol != DOT) {  // if DOT button was pressed and DOT is not processed at the moment
-      queue[DOT] = true;                      // than enqueue DOT
+      queue[DOT] = true;                      // then enqueue DOT
       dotPressTimestamp = millis();
     }
   }
@@ -67,7 +67,7 @@ void loop() {
   if (dashState != currentDashState) {  // check if DASH button state has changed (pressed or released)
     dashState = currentDashState;
     if (!dashState && currentSymbol != DASH) {  // if DASH button was pressed and DASH is not processed at the moment
-      queue[DASH] = true;                       // than enqueue DASH
+      queue[DASH] = true;                       // then enqueue DASH
       dashPressTimestamp = millis();
     }
   }
@@ -89,7 +89,7 @@ void loop() {
           DOT button was pressed and enqueued
           but also DASH button is keep being pressed and not released
           current symbol is set with respect to alternation pattern
-          that is if previous symbol was DOT than select DASH and keep DOT in queue
+          that is if previous symbol was DOT then select DASH and keep DOT in queue
         */
         currentSymbol = DASH;
       } else {
@@ -102,7 +102,7 @@ void loop() {
           DASH button was pressed and enqueued
           but also DOT button is keep being pressed and not released
           current symbol is set with respect to alternation pattern
-          that is if previous symbol was DASH than select DOT and keep DASH in queue
+          that is if previous symbol was DASH then select DOT and keep DASH in queue
         */
         currentSymbol = DOT;
       } else {
@@ -113,7 +113,7 @@ void loop() {
       /*
         both DASH and DOT button are keep being pressed and not released
         current symbol is set with respect to alternation pattern
-        that is if previous symbol was DASH than select DOT and keep DASH in queue
+        that is if previous symbol was DASH then select DOT and keep DASH in queue
       */
       currentSymbol = lastSymbol == DOT ? DASH : DOT;
     } else if (!dotState) {
@@ -172,7 +172,7 @@ void loop() {
       char foundLetter = morseDictionary[symbolsBuffer.c_str()];  // get letter from dictionary
 
       if (foundLetter) {
-        Keyboard.write(foundLetter);  // if letter found than send to keyboard
+        Keyboard.write(foundLetter);  // if letter found then send to keyboard
         letterPrinted = true;         // prepare for a space between words
       }
 

@@ -12,7 +12,7 @@ This can be useful as a trainer for those, who want to learn morse code, or you 
 - USB cable to connect Arduino to your computer
 
 ### How to run:
-copy `morse_iambic_keyboard` to your Arduino sketchbook folder, open it in Arduino IDE, then upload it to your board.
+copy `morse_iambic_keyboard` folder to your Arduino sketchbook folder, open it in Arduino IDE, then upload it to your board.
 
 ### Wiring:
 <img width="370" alt="wiring" src="https://github.com/jemcik/arduino-morse-keyboard/assets/4085099/45395f8c-7f01-4ade-8606-d3d7793394d1">
